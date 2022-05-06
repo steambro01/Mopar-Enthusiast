@@ -29,6 +29,12 @@ nav {
 nav ul {
   list-style-type: none; /* this removes bullet points*/
 }
+nav button{
+  float: right;
+}
+nav button:hover{
+  color: red;
+}
 /* Nav CSS ends here*/
 
 .right {
@@ -46,7 +52,7 @@ nav ul {
   clear: left;
 }
 #images {
-  display: block;
+  display: inline;
   border: solid 10px black;
   width: auto;
   min-height: 1000px;

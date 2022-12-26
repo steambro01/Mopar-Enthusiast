@@ -29,11 +29,14 @@ nav {
 nav ul {
   list-style-type: none; /* this removes bullet points*/
 }
-nav button{
+.nav-btn{
   float: right;
 }
-nav button:hover{
+.nav-btn:hover{
   color: red;
+}
+.dropdown-menu{
+  border: 10px solid white;
 }
 /* Nav CSS ends here*/
 

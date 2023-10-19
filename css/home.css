@@ -6,15 +6,12 @@ body {
 }
 nav ul li {
   display: inline;
-  text-decoration: none;
   text-align: center;
   word-spacing: 50px;
 }
 nav ul li a {
   font-size: 50px;
   color: black;
-}
-a {
   text-decoration: none;
 }
 nav {
@@ -43,25 +40,27 @@ nav ul {
 .right {
   height: 25%;
   width: 25%;
-  display: flex;
+  display: block;
   flex-direction: column;
-  margin-left: 75%;
+  margin-left: 70%;
 }
 .left {
   height: 25%;
   width: 25%;
-  display: inline;
+  display: block;
   float: left;
   clear: left;
 }
 #images {
-  display: inline;
+  display: block;
   border: solid 10px black;
-  width: auto;
-  min-height: 1000px;
+  /* min-height: 1000px; */
 }
-img {
-  margin: 25px;
+#images img {
+  /* margin: 25px; */
+  height: 350px;
+  width: 420px;
+  padding: 10px;
 }
 footer {
   display: block;
@@ -75,4 +74,8 @@ footer a {
   font-size: large;
   color: black;
   font-weight: bolder;
+}
+:hover a{
+  /* removes underline from links when hovering */
+text-decoration: none; 
 }
